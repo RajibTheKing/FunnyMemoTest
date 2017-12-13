@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/gameoverimage">
+
+    <Button
+        android:id="@+id/rtb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MENU" />
+
+    <Button
+        android:id="@+id/eb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXIT" />
+     <Button
+        android:id="@+id/sare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share" />
+   	<TextView 
+        android:id="@+id/scoretext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Score is: 0" />
+
+</LinearLayout>
